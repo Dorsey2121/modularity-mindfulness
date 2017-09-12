@@ -1,0 +1,11 @@
+html {
+  font-family: "PT Serif", serif;
+}
+  .btn {
+    color: #b64c6e;
+    border-color: #b64c6e;
+}
+
+  .nav li {
+    color: #b64c6e;
+  }
