@@ -1,11 +1,51 @@
 html {
-  font-family: "PT Serif", serif;
+  font-family: "Noto Sans", sans-serif;
 }
-  .btn {
-    color: #b64c6e;
-    border-color: #b64c6e;
+.btn-ghost {
+  color: #b64c6e;
+  border-color: #d89fb0;
+  border-width: .1rem;
 }
 
-  .nav li {
-    color: #b64c6e;
+.nav li a {
+  color: #b64c6e;
+  text-decoration: none;
+}
+
+.red {
+  border-color: #b64c6e;
+}
+
+.nav-btn {
+  border-bottom: .1rem solid #d89fb0;
+}
+
+hr {
+  border-color: #e2e2e2;
+}
+
+.grey {
+  color: #e2e2e2;
+}
+
+.nav-btn:hover {
+  color: #860927;
+  border-color: #860927;
+}
+
+.btn-ghost:hover {
+  color: #860927;
+  border-color: #b64c6e;
+  background-color: #d89fb0;
+}
+
+@media only screen and (min-width: 60em) {
+
+  header div {
+    text-align: left;
   }
+
+  .nav {
+    text-align: right;
+  }
+}
